@@ -5,7 +5,8 @@ Learn more about the vision behind the AttestationStation and Optimism's approac
 
 # How to Pull All Attestation Station Data
 Once you have a ShroomDK API Key (requires NFT mint), store in your .env as:
-` FLIPSIDE_SHROOMDK_KEY = 'Your API Key' `
+
+```FLIPSIDE_SHROOMDK_KEY = 'Your API Key'```
 
 From there, you can run `pull_attestations_shroomdk.ipynb` in jupyter notebooks. This will query for all attestations in Flipside's databse, and store results in a file `attestation_data` csv, with today's date appended to the file name.
 
